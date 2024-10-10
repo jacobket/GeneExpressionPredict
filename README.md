@@ -1,7 +1,7 @@
 # Gene Expression Prediction Using Machine Learning
 
 ## Project Objective
-This project uses machine learning techniques to predict gene expression levels from the GSE45827 dataset.
+This project uses machine learning techniques to predict gene expression levels from the GSE45827 dataset. It also aims to explore gene expression patterns using unsupervised learning (Kmeans clustering).
 
 ## Data Preprocessing
 1. Loaded dataset using `pandas` and removed any rows containing NaN values
@@ -10,7 +10,8 @@ This project uses machine learning techniques to predict gene expression levels 
 
 ## Model Selection
 1. Applied **Linear Regression** to predict the expression levels of a target gene based on other genes in dataset
-2. [Expand, compare future models such as Random Forest, NN, ?]
+2. Utilized **Kmeans Clustering** to group gene expression profiles into distinct clusters
+3. [Expand, compare future models such as Random Forest, NN, ?]
 
 ## Results
 1. Visualized the cleaned dataset using a **heatmap**
